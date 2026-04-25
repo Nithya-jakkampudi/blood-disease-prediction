@@ -57,21 +57,19 @@ Evaluation metrics used:
 
 1. Install dependencies:
 
-```
 pip install -r requirements.txt
-```
+
 
 2. Run the application:
 
-```
 python app.py
-```
+
 
 3. Open in browser:
 
-```
+
 http://127.0.0.1:5000/
-```
+
 # Features
 - Predict diseases
 - Web interface
@@ -82,7 +80,7 @@ The dataset was split into training and testing sets using an 80-20 split.
 
 - Training Data: 80%
 - Testing Data: 20%
-- 
+  
 Cross-validation was also considered to ensure model reliability.
 
 # Model Training & Evaluation
