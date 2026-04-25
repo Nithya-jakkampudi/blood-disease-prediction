@@ -118,12 +118,6 @@ The models were trained using a train-test split approach and evaluated using st
   - Testing: 20%
 
 Models were trained using Scikit-learn and evaluated on unseen test data.
-
-# Results Interpretation
-
-- Logistic Regression performs well for linear relationships but has lower accuracy.
-- Decision Tree improves performance but may overfit the data.
-- Random Forest performs best due to ensemble learning and better generalization.
   
 # Results
 
@@ -134,6 +128,12 @@ Models were trained using Scikit-learn and evaluated on unseen test data.
 
 
 <img width="1600" height="835" alt="DIABETES" src="https://github.com/user-attachments/assets/24b9f12e-553c-4949-b924-78f56d716046" />
+
+# Results Interpretation
+
+- Logistic Regression performs well for linear relationships but has lower accuracy.
+- Decision Tree improves performance but may overfit the data.
+- Random Forest performs best due to ensemble learning and better generalization.
 
 # Key Insights
 
