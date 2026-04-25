@@ -66,6 +66,7 @@ http://127.0.0.1:5000/
 
 ## 📸 Screenshots
 
+<img width="1333" height="813" alt="anemia" src="https://github.com/user-attachments/assets/581896e4-e619-402f-b4d6-f204d932f71a" />
 
 
 
