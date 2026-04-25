@@ -41,6 +41,18 @@ Evaluation metrics used:
 * NumPy
 * Scikit-learn
 
+  # Dataset Details
+
+- Dataset contains clinical blood parameters such as:
+  - Hemoglobin
+  - Glucose
+  - RBC and WBC count
+  - Blood pressure
+- Approximate dataset size: 300–500 records
+- Data preprocessing included:
+  - Handling missing values
+  - Normalization of features
+
 # How to Run the Project
 
 1. Install dependencies:
@@ -64,14 +76,14 @@ http://127.0.0.1:5000/
 - Predict diseases
 - Web interface
 
-# Dataset Details
+# Model Evaluation Details
 
-- Dataset includes clinical parameters such as:
-  - Hemoglobin levels
-  - Glucose levels
-  - RBC and WBC count
-  - Blood pressure
-- The dataset was preprocessed by handling missing values and normalizing features.
+The dataset was split into training and testing sets using an 80-20 split.
+
+- Training Data: 80%
+- Testing Data: 20%
+- 
+Cross-validation was also considered to ensure model reliability.
 
 # Model Training & Evaluation
 
@@ -95,6 +107,20 @@ The models were trained using a train-test split approach and evaluated using st
 
 * Random Forest performed the best due to its ability to handle complex relationships in clinical data.
 
+# Experimental Setup
+
+- Dataset size: ~300–500 records (clinical blood data)
+- Features used:
+  - Hemoglobin
+  - Glucose
+  - RBC/WBC count
+  - Blood pressure
+- Data split:
+  - Training: 80%
+  - Testing: 20%
+
+Models were trained using Scikit-learn and evaluated on unseen test data.
+
 # Results Interpretation
 
 - Logistic Regression performs well for linear relationships but has lower accuracy.
@@ -111,16 +137,6 @@ The models were trained using a train-test split approach and evaluated using st
 
 <img width="1600" height="835" alt="DIABETES" src="https://github.com/user-attachments/assets/24b9f12e-553c-4949-b924-78f56d716046" />
 
-
-# Model Evaluation Details
-
-The dataset was split into training and testing sets using an 80-20 split.
-
-- Training Data: 80%
-- Testing Data: 20%
-- 
-Cross-validation was also considered to ensure model reliability.
-
 # Key Insights
 
 - Random Forest performed best due to ensemble learning.
@@ -132,6 +148,10 @@ Cross-validation was also considered to ensure model reliability.
 * Improve model accuracy with more data
 * Add more disease predictions
 * Deploy the project online
+
+# Disclaimer
+
+This project is developed for educational purposes only and should not be used for real medical diagnosis.
 
 # Author
 
