@@ -92,6 +92,28 @@ The models were trained using a train-test split approach and evaluated using st
 
 <img width="1600" height="835" alt="DIABETES" src="https://github.com/user-attachments/assets/24b9f12e-553c-4949-b924-78f56d716046" />
 
+
+# Model Evaluation Details
+
+The dataset was split into training and testing sets using an 80-20 split.
+
+- Training Data: 80%
+- Testing Data: 20%
+
+The models were evaluated using:
+- Accuracy Score
+- Precision
+- Recall
+- ROC-AUC Score
+
+Cross-validation was also considered to ensure model reliability.
+
+# Key Insights
+
+- Random Forest performed best due to ensemble learning.
+- Logistic Regression works well for simple linear relationships.
+- Decision Tree may overfit but gives better interpretability.
+
 # Future Improvements
 
 * Improve model accuracy with more data
