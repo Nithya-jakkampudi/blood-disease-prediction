@@ -64,6 +64,25 @@ http://127.0.0.1:5000/
 - Predict diseases
 - Web interface
 
+# Dataset Details
+
+- Dataset includes clinical parameters such as:
+  - Hemoglobin levels
+  - Glucose levels
+  - RBC and WBC count
+  - Blood pressure
+- The dataset was preprocessed by handling missing values and normalizing features.
+
+# Model Training & Evaluation
+
+- The dataset was split into training and testing sets using an 80:20 ratio.
+- Models were trained on the training dataset and evaluated on unseen test data.
+- Evaluation metrics used:
+  - Accuracy
+  - Precision
+  - Recall
+  - ROC-AUC Score
+
 # Model Performance
 
 The models were trained using a train-test split approach and evaluated using standard classification metrics.
@@ -76,12 +95,12 @@ The models were trained using a train-test split approach and evaluated using st
 
 * Random Forest performed the best due to its ability to handle complex relationships in clinical data.
 
-# Interpretation
+# Results Interpretation
 
-- Logistic Regression performs well for simple patterns but has lower accuracy.
-- Decision Tree improves performance but may overfit.
-- Random Forest gives the best performance due to ensemble learning.
-
+- Logistic Regression performs well for linear relationships but has lower accuracy.
+- Decision Tree improves performance but may overfit the data.
+- Random Forest performs best due to ensemble learning and better generalization.
+  
 # Results
 
 <img width="1333" height="813" alt="anemia" src="https://github.com/user-attachments/assets/54a177d3-8d7f-4ecd-bd02-ec1a8b826967" />
@@ -99,13 +118,7 @@ The dataset was split into training and testing sets using an 80-20 split.
 
 - Training Data: 80%
 - Testing Data: 20%
-
-The models were evaluated using:
-- Accuracy Score
-- Precision
-- Recall
-- ROC-AUC Score
-
+- 
 Cross-validation was also considered to ensure model reliability.
 
 # Key Insights
