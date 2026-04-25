@@ -61,16 +61,15 @@ python app.py
 http://127.0.0.1:5000/
 ```
 # Results
-
-The models were evaluated using standard metrics. The Random Forest model performed best with high accuracy and ROC-AUC score.
+- Logistic Regression Accuracy: 82%
+- Random Forest Accuracy: 89%
+- ROC-AUC Score: 0.90
 
 # Future Improvements
 
 * Improve model accuracy with more data
 * Add more disease predictions
 * Deploy the project online
-
----
 
 # Author
 
