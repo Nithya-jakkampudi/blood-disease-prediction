@@ -64,13 +64,13 @@ http://127.0.0.1:5000/
 - Predict diseases
 - Web interface
 
-## 📸 Screenshots
+# Model Performance
 
-<img width="1333" height="813" alt="anemia" src="https://github.com/user-attachments/assets/581896e4-e619-402f-b4d6-f204d932f71a" />
-
-<img width="1000" height="891" alt="CHD" src="https://github.com/user-attachments/assets/8deb9df5-b2a1-4a7b-8f46-ba95d3221b8e" />
-
-<img width="1600" height="835" alt="DIABETES" src="https://github.com/user-attachments/assets/f754454b-a7df-4c22-9aae-355461f8f0e0" />
+| Model                | Accuracy | ROC-AUC |
+|---------------------|----------|---------|
+| Logistic Regression | 82%      | 0.85    |
+| Decision Tree       | 85%      | 0.87    |
+| Random Forest       | 89%      | 0.90    |
 
 # Results
 - Logistic Regression Accuracy: 82%
