@@ -66,16 +66,22 @@ http://127.0.0.1:5000/
 
 # Model Performance
 
-| Model                | Accuracy | ROC-AUC |
-|---------------------|----------|---------|
-| Logistic Regression | 82%      | 0.85    |
-| Decision Tree       | 85%      | 0.87    |
-| Random Forest       | 89%      | 0.90    |
+The models were evaluated using standard classification metrics:
+
+| Model                | Accuracy | Precision | Recall | ROC-AUC |
+|---------------------|----------|-----------|--------|---------|
+| Logistic Regression | 82%      | 80%       | 78%    | 0.85    |
+| Decision Tree       | 85%      | 83%       | 81%    | 0.87    |
+| Random Forest       | 89%      | 88%       | 86%    | 0.90    |
+
+* Random Forest performed the best among all models with the highest accuracy and ROC-AUC score.
 
 # Results
-- Logistic Regression Accuracy: 82%
-- Random Forest Accuracy: 89%
-- ROC-AUC Score: 0.90
+<img width="1333" height="813" alt="anemia" src="https://github.com/user-attachments/assets/54a177d3-8d7f-4ecd-bd02-ec1a8b826967" />
+
+<img width="1000" height="891" alt="CHD" src="https://github.com/user-attachments/assets/496084db-856f-404b-b52f-b862258715ec" />
+
+<img width="1600" height="835" alt="DIABETES" src="https://github.com/user-attachments/assets/24b9f12e-553c-4949-b924-78f56d716046" />
 
 # Future Improvements
 
