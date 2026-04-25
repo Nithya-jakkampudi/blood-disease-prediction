@@ -66,7 +66,7 @@ http://127.0.0.1:5000/
 
 # Model Performance
 
-The models were evaluated using standard classification metrics:
+The models were trained using a train-test split approach and evaluated using standard classification metrics.
 
 | Model                | Accuracy | Precision | Recall | ROC-AUC |
 |---------------------|----------|-----------|--------|---------|
@@ -74,12 +74,21 @@ The models were evaluated using standard classification metrics:
 | Decision Tree       | 85%      | 83%       | 81%    | 0.87    |
 | Random Forest       | 89%      | 88%       | 86%    | 0.90    |
 
-* Random Forest performed the best among all models with the highest accuracy and ROC-AUC score.
+* Random Forest performed the best due to its ability to handle complex relationships in clinical data.
+
+# Interpretation
+
+- Logistic Regression performs well for simple patterns but has lower accuracy.
+- Decision Tree improves performance but may overfit.
+- Random Forest gives the best performance due to ensemble learning.
 
 # Results
+
 <img width="1333" height="813" alt="anemia" src="https://github.com/user-attachments/assets/54a177d3-8d7f-4ecd-bd02-ec1a8b826967" />
 
+
 <img width="1000" height="891" alt="CHD" src="https://github.com/user-attachments/assets/496084db-856f-404b-b52f-b862258715ec" />
+
 
 <img width="1600" height="835" alt="DIABETES" src="https://github.com/user-attachments/assets/24b9f12e-553c-4949-b924-78f56d716046" />
 
