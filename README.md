@@ -60,6 +60,31 @@ python app.py
 ```
 http://127.0.0.1:5000/
 ```
+# Features
+- Predict diseases
+- Web interface
+
+## 📸 Screenshots
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Results
 - Logistic Regression Accuracy: 82%
 - Random Forest Accuracy: 89%
